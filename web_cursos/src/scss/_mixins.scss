@@ -1,0 +1,30 @@
+/* Botones */
+
+@mixin boton($color) {
+    background-color: $color;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: $blanco;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+@mixin botonHover($color) {
+    &:hover {
+        background-color: $blanco;
+        border: 1.5px solid $color;
+        padding: 0.5rem 1rem;
+        display: block;
+        margin-top: 1rem;
+        text-align: center;
+        color: $color;
+        text-decoration: none;
+    }
+}
+
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}

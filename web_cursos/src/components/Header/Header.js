@@ -10,9 +10,9 @@ const Header = () => {
                     <img src={logo} alt="logo"/>
                 </div>
                 <div className="carrito-compras">
-                    <img src={cart} alt="cart"/>
+                    <img className="img-carrito" src={cart} alt="cart"/>
                     <div className="contenido oculto">
-                        <table id="lista-carrito">
+                        <table id="lista-carrito"> 
                             <thead>
                                 <tr>
                                     <th>Imagen</th>
