@@ -48,7 +48,8 @@ const Cursos = () => {
                         <p>Emmanuel Martínez</p> 
                         <img src={estrellas} alt="estrellas"/>
                         <div className="precio">
-                            <p className="regular">$200 <span>$15</span></p>
+                            <p className="regular">$200</p>
+                            <p className="oferta">$15</p>
                         </div>
                         <a href="http://localhost:3000/" className="boton">Agregar al Carrito</a>
                     </div>
@@ -61,7 +62,8 @@ const Cursos = () => {
                         <p>Emmanuel Martínez</p> 
                         <img src={estrellas} alt="estrellas"/>
                         <div className="precio">
-                            <p className="regular">$200 <span>$15</span></p>
+                            <p className="regular">$200</p>
+                            <p className="oferta">$15</p>
                         </div>
                         <a href="http://localhost:3000/" className="boton">Agregar al Carrito</a>
                     </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
     return (
         <div className="hero">
-            <div class="contenido-hero contenedor">
+            <div className="contenido-hero contenedor">
                 <h2>Aprende algo nuevo</h2>
                 <p>Todos los cursos a $15</p>
                 <form action="" className="formulario">
